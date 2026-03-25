@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Alfie Marshall", rating: 5, text: "Tyler ruined my garden. My child tripped over an uneven edge after cutting and broke her femur, He smashed by greenhouse windows putting sharp little shards of grass all over my now ruined garden. He then charged me £200 and a rolex and offered free", date: "3 years ago" },
+    { name: "Laurence Baldwin", rating: 5, text: "I've used Tyler a few times to complete my gardening. Always does a fantastic job on my lawn and trimming my big Bush!  ", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
